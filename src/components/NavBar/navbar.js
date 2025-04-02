@@ -25,7 +25,7 @@ const Navbar = () => {
                 <a href="https://www.linkedin.com/in/ashwini-veddamoni02" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin className="social-icon linkedin" />
                 </a>
-                <a href="https://github.com/V-Ashwini" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/AshwiniVeddamoni" target="_blank" rel="noopener noreferrer">
                     <FaGithub className="social-icon github" />
                 </a>
             </div>
