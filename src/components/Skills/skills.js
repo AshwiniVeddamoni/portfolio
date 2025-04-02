@@ -1,10 +1,8 @@
 import React from "react";
 import "./skills.css";
 import {
-  FaDatabase,
   FaCode,
   FaCloud,
-  FaTools,
   FaServer,
   FaMicrosoft,
 } from "react-icons/fa";
@@ -147,24 +145,24 @@ const skillsData = [
 
 const Skills = () => {
   return (
-    <section id="skills">
-      <h2 className="section-title">SKILLS</h2>
-      <div className="skills-grid">
-        {skillsData.map((skillCategory, index) => (
-          <div key={index} className="skill-card">
-            <h3 className="category-title">{skillCategory.category}</h3>
-            <div className="skill-list">
-              {skillCategory.skills.map((skill, i) => (
-                <div key={i} className="skill-item">
-                  {skill.icon && <span>{skill.icon}</span>}
-                  <span>{skill.name}</span>
+      <section id="skills">
+        <h2 className="section-title">SKILLS</h2>
+        <div className="skills-grid">
+          {skillsData.map((skillCategory, index) => (
+              <div key={index} className="skill-card">
+                <h3 className="category-title">{skillCategory.category}</h3>
+                <div className="skill-list">
+                  {skillCategory.skills.map((skill, i) => (
+                      <div key={i} className="skill-item">
+                        {skill.icon && <span>{skill.icon}</span>}
+                        <span>{skill.name}</span>
+                      </div>
+                  ))}
                 </div>
-              ))}
-            </div>
-          </div>
-        ))}
-      </div>
-    </section>
+              </div>
+          ))}
+        </div>
+      </section>
   );
 };
 

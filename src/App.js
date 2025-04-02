@@ -12,6 +12,7 @@ const App = () => {
         <div className="app-container">
             <Navbar />
             <div className="content">
+                <Navbar />
                 <About />
                 <Experience />
                 <Education />
