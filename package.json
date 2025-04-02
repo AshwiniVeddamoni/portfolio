@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://ashwiniveddamoni.github.io/Ashwini_Veddamoni_Portfolio1",
+  "homepage": "https://github.com/AshwiniVeddamoni/test.git",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
